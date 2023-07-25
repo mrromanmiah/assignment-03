@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c478bddd20.js" crossorigin="anonymous"></script>
     <style>
         .lato {
             font-family: 'Lato', sans-serif;
@@ -17,7 +19,54 @@
     </style>
 </head>
 
-<body>
+<body class="lato">
+    <header class="mx-28 my-12">
+        <nav class="bg-[#F85559] flex rounded-full items-center justify-between px-8 py-4">
+            <div class="">
+                <ul class="flex gap-5 text-white font-medium text-lg">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">All Fruits</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-4">
+                <div>
+                    <img class="w-auto" src="images/logo.png" alt="">
+                </div>
+                <div>
+                    <h1 class="text-white text-4xl font-bold">Fruit Burst</h1>
+                </div>
+            </div>
+            <div>
+                <input class="w-auto h-10 py-1 pl-3 pr-10 rounded-full" placeholder="Search here" type="search"
+                    name="search">
+                <button class="-ml-8 bg-trasparent" type="submit"><i class="fa-solid fa-magnifying-glass"
+                        style="color: #121212;"></i></button>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="">
+        <div class="navbar bg-[#F85559] rounded-full px-7 py-3">
+            <div class="flex-1">
+                <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+            </div>
+            <div class="flex-none gap-2">
+                <div class="form-control">
+                    <input type="text" placeholder="Search here" class="input rounded-full w-24 md:w-auto" />
+                </div>
+                <div class="-ml-10">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #121212;"></i>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+
+    </footer>
 
 </body>
 
