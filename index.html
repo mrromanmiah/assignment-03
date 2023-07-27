@@ -42,9 +42,19 @@
                         </button>
                     </div>
                     <div class="lg:hidden">
-                        <button class="text-white">
+                        <!-- <button class="text-white">
                             <i class="fa-solid fa-bars" style="color: #000000;"></i>
-                        </button>
+                        </button> -->
+                        <div class="dropdown dropdown-end">
+                            <label tabindex="0" class="m-1"><i class="fa-solid fa-bars" style="color: #000000;"></i></label>
+                            <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                              <li><input type="text" class="px-4 py-2 rounded-full focus:outline-none border-2" placeholder="Search here"></li>
+                              <li><a>Home</a></li>
+                              <li><a>About Us</a></li>
+                              <li><a>Shop</a></li>
+                              <li><a>All Fruits</a></li>
+                            </ul>
+                          </div>
                     </div>
                 </div>
         </nav>
@@ -894,7 +904,5 @@
             <p class="text-xs">Copyright © 2023 - All right reserved by Roman</p>
         </div>
     </footer>
-
 </body>
-
 </html>
